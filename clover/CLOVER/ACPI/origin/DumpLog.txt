@@ -1,0 +1,198 @@
+25:886  0:607  Found BIOS RSDP at EF380
+25:886  0:000  Printing ACPI tables from RSDP EF380 ...
+25:886  0:000   EF380: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+25:886  0:000    (Xsdt: 77FD40B8, Rsdt: 77FD4028)
+25:886  0:000    77FD40B8: 'XSDT', 'CBX3', Rev: 1, Len: 244
+25:886  0:000    77FD4028: 'RSDT', 'CBX3', Rev: 1, Len: 140
+25:886  0:000    Tables in Xsdt: 26
+25:886  0:000    0. 77FF1BD0: 'FACP', 'CBX3', Rev: 5, Len: 268
+25:886  0:000        (Dsdt: 77FD4240, Facs: 77F97F80, XDsdt: 77FD4240, XFacs: 0)
+25:886  0:000        77FD4240: 'DSDT', 'CBX3', Rev: 2, Len: 121228
+25:887  0:001        77F97F80: 'FACS', Ver: 2, Len: 64
+25:887  0:000    1. 77FF1CE0: 'APIC', 'CBX3', Rev: 3, Len: 132
+25:887  0:000    2. 77FF1D68: 'FPDT', 'CBX3', Rev: 1, Len: 68
+25:887  0:000    3. 77FF1DB0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+25:887  0:000    4. 77FF1E50: 'MCFG', 'CBX3', Rev: 1, Len: 60
+25:887  0:000    5. 77FF1E90: 'HPET', 'CBX3', Rev: 1, Len: 56
+25:887  0:000    6. 77FF1EC8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+25:887  0:000    7. 77FF21E0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+25:887  0:000    8. 77FF2278: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+25:887  0:000    9. 77FF24C0: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+25:887  0:000    10. 77FF5070: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+25:887  0:000    11. 77FF5CB8: 'DBGP', '', Rev: 1, Len: 52
+25:887  0:000    12. 77FF5CF0: 'DBG2', '', Rev: 0, Len: 84
+25:887  0:000    13. 77FF5D48: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1856
+25:887  0:000    14. 77FF6488: 'BOOT', 'CBX3', Rev: 1, Len: 40
+25:887  0:000    15. 77FF64B0: 'SSDT', 'SaSsdt', Rev: 2, Len: 13847
+25:887  0:000    16. 77FF9AC8: 'UEFI', '', Rev: 1, Len: 66
+25:887  0:000    17. 77FF9B10: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+25:887  0:000    18. 77FFA968: 'MSDM', 'CBX3', Rev: 3, Len: 85
+25:887  0:000    19. 77FFA9C0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+25:887  0:000    20. 77FFAB38: 'SSDT', 'SgPch', Rev: 2, Len: 1706
+25:887  0:000    21. 77FFB1E8: 'DMAR', 'SKL', Rev: 1, Len: 240
+25:887  0:000    22. 77FFB2D8: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+25:887  0:000    23. 77FFB310: 'SSDT', 'OptTabl', Rev: 1, Len: 6328
+25:887  0:000    24. 77FFCBC8: 'ASF!', ' HCG', Rev: 32, Len: 165
+25:887  0:000    25. 77FFCC70: 'BGRT', '', Rev: 0, Len: 56
+25:887  0:000    Tables in Rsdt: 26
+25:887  0:000    0. 77FD41B8: 'FACP', 'CBX3', Rev: 2, Len: 132
+25:887  0:000        (Dsdt: 77FD4240, Facs: 77F97F40)
+25:887  0:000        77FD4240: 'DSDT', 'CBX3', Rev: 2, Len: 121228
+25:889  0:001        77F97F40: 'FACS', Ver: 0, Len: 64
+25:889  0:000    1. 77FF1CE0: 'APIC', 'CBX3', Rev: 3, Len: 132
+25:889  0:000    2. 77FF1D68: 'FPDT', 'CBX3', Rev: 1, Len: 68
+25:889  0:000    3. 77FF1DB0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+25:889  0:000    4. 77FF1E50: 'MCFG', 'CBX3', Rev: 1, Len: 60
+25:889  0:000    5. 77FF1E90: 'HPET', 'CBX3', Rev: 1, Len: 56
+25:889  0:000    6. 77FF1EC8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+25:889  0:000    7. 77FF21E0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+25:889  0:000    8. 77FF2278: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+25:889  0:000    9. 77FF24C0: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+25:889  0:000    10. 77FF5070: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+25:889  0:000    11. 77FF5CB8: 'DBGP', '', Rev: 1, Len: 52
+25:889  0:000    12. 77FF5CF0: 'DBG2', '', Rev: 0, Len: 84
+25:889  0:000    13. 77FF5D48: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1856
+25:889  0:000    14. 77FF6488: 'BOOT', 'CBX3', Rev: 1, Len: 40
+25:889  0:000    15. 77FF64B0: 'SSDT', 'SaSsdt', Rev: 2, Len: 13847
+25:889  0:000    16. 77FF9AC8: 'UEFI', '', Rev: 1, Len: 66
+25:889  0:000    17. 77FF9B10: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+25:889  0:000    18. 77FFA968: 'MSDM', 'CBX3', Rev: 3, Len: 85
+25:889  0:000    19. 77FFA9C0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+25:889  0:000    20. 77FFAB38: 'SSDT', 'SgPch', Rev: 2, Len: 1706
+25:889  0:000    21. 77FFB1E8: 'DMAR', 'SKL', Rev: 1, Len: 240
+25:889  0:000    22. 77FFB2D8: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+25:889  0:000    23. 77FFB310: 'SSDT', 'OptTabl', Rev: 1, Len: 6328
+25:889  0:000    24. 77FFCBC8: 'ASF!', ' HCG', Rev: 32, Len: 165
+25:889  0:000    25. 77FFCC70: 'BGRT', '', Rev: 0, Len: 56
+25:889  0:000  Found UEFI Acpi 2.0 RSDP at 77FD4000
+25:889  0:000  Saving ACPI tables from RSDP 77FD4000 to EFI\CLOVER\ACPI\origin ...
+25:889  0:000   77FD4000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+25:889  0:000    (Xsdt: 77FD40B8, Rsdt: 77FD4028)
+25:889  0:000    77FD40B8: 'XSDT', 'CBX3', Rev: 1, Len: 244
+25:889  0:000    77FD4028: 'RSDT', 'CBX3', Rev: 1, Len: 140
+25:889  0:000    Tables in Xsdt: 26
+25:889  0:000    0. 77FF1BD0: 'FACP', 'CBX3', Rev: 5, Len: 268
+25:889  0:000        (Dsdt: 77FD4240, Facs: 77F97F80, XDsdt: 77FD4240, XFacs: 0)
+25:889  0:000        77FD4240: 'DSDT', 'CBX3', Rev: 2, Len: 121228
+25:890  0:001        77F97F80: 'FACS', Ver: 2, Len: 64
+25:890  0:000    1. 77FF1CE0: 'APIC', 'CBX3', Rev: 3, Len: 132
+25:890  0:000    2. 77FF1D68: 'FPDT', 'CBX3', Rev: 1, Len: 68
+25:890  0:000    3. 77FF1DB0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+25:890  0:000    4. 77FF1E50: 'MCFG', 'CBX3', Rev: 1, Len: 60
+25:890  0:000    5. 77FF1E90: 'HPET', 'CBX3', Rev: 1, Len: 56
+25:890  0:000    6. 77FF1EC8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+25:890  0:000    7. 77FF21E0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+25:890  0:000    8. 77FF2278: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+25:890  0:000    9. 77FF24C0: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+25:890  0:000    10. 77FF5070: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+25:890  0:000    11. 77FF5CB8: 'DBGP', '', Rev: 1, Len: 52
+25:890  0:000    12. 77FF5CF0: 'DBG2', '', Rev: 0, Len: 84
+25:890  0:000    13. 77FF5D48: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1856
+25:890  0:000    14. 77FF6488: 'BOOT', 'CBX3', Rev: 1, Len: 40
+25:890  0:000    15. 77FF64B0: 'SSDT', 'SaSsdt', Rev: 2, Len: 13847
+25:890  0:000    16. 77FF9AC8: 'UEFI', '', Rev: 1, Len: 66
+25:890  0:000    17. 77FF9B10: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+25:890  0:000    18. 77FFA968: 'MSDM', 'CBX3', Rev: 3, Len: 85
+25:890  0:000    19. 77FFA9C0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+25:890  0:000    20. 77FFAB38: 'SSDT', 'SgPch', Rev: 2, Len: 1706
+25:890  0:000    21. 77FFB1E8: 'DMAR', 'SKL', Rev: 1, Len: 240
+25:890  0:000    22. 77FFB2D8: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+25:890  0:000    23. 77FFB310: 'SSDT', 'OptTabl', Rev: 1, Len: 6328
+25:890  0:000    24. 77FFCBC8: 'ASF!', ' HCG', Rev: 32, Len: 165
+25:890  0:000    25. 77FFCC70: 'BGRT', '', Rev: 0, Len: 56
+25:890  0:000    Tables in Rsdt: 26
+25:890  0:000    0. 77FD41B8: 'FACP', 'CBX3', Rev: 2, Len: 132
+25:890  0:000        (Dsdt: 77FD4240, Facs: 77F97F40)
+25:890  0:000        77FD4240: 'DSDT', 'CBX3', Rev: 2, Len: 121228
+25:892  0:001        77F97F40: 'FACS', Ver: 0, Len: 64
+25:892  0:000    1. 77FF1CE0: 'APIC', 'CBX3', Rev: 3, Len: 132
+25:892  0:000    2. 77FF1D68: 'FPDT', 'CBX3', Rev: 1, Len: 68
+25:892  0:000    3. 77FF1DB0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+25:892  0:000    4. 77FF1E50: 'MCFG', 'CBX3', Rev: 1, Len: 60
+25:892  0:000    5. 77FF1E90: 'HPET', 'CBX3', Rev: 1, Len: 56
+25:892  0:000    6. 77FF1EC8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+25:892  0:000    7. 77FF21E0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+25:892  0:000    8. 77FF2278: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+25:892  0:000    9. 77FF24C0: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+25:892  0:000    10. 77FF5070: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+25:892  0:000    11. 77FF5CB8: 'DBGP', '', Rev: 1, Len: 52
+25:892  0:000    12. 77FF5CF0: 'DBG2', '', Rev: 0, Len: 84
+25:892  0:000    13. 77FF5D48: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1856
+25:892  0:000    14. 77FF6488: 'BOOT', 'CBX3', Rev: 1, Len: 40
+25:892  0:000    15. 77FF64B0: 'SSDT', 'SaSsdt', Rev: 2, Len: 13847
+25:892  0:000    16. 77FF9AC8: 'UEFI', '', Rev: 1, Len: 66
+25:892  0:000    17. 77FF9B10: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+25:892  0:000    18. 77FFA968: 'MSDM', 'CBX3', Rev: 3, Len: 85
+25:892  0:000    19. 77FFA9C0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+25:892  0:000    20. 77FFAB38: 'SSDT', 'SgPch', Rev: 2, Len: 1706
+25:892  0:000    21. 77FFB1E8: 'DMAR', 'SKL', Rev: 1, Len: 240
+25:892  0:000    22. 77FFB2D8: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+25:892  0:000    23. 77FFB310: 'SSDT', 'OptTabl', Rev: 1, Len: 6328
+25:892  0:000    24. 77FFCBC8: 'ASF!', ' HCG', Rev: 32, Len: 165
+25:892  0:000    25. 77FFCC70: 'BGRT', '', Rev: 0, Len: 56
+25:892  0:000  Found UEFI Acpi 1.0 RSDP at 77FD4000
+25:892  0:000  Printing ACPI tables from RSDP 77FD4000 ...
+25:892  0:000   77FD4000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+25:892  0:000    (Xsdt: 77FD40B8, Rsdt: 77FD4028)
+25:892  0:000    77FD40B8: 'XSDT', 'CBX3', Rev: 1, Len: 244
+25:892  0:000    77FD4028: 'RSDT', 'CBX3', Rev: 1, Len: 140
+25:892  0:000    Tables in Xsdt: 26
+25:892  0:000    0. 77FF1BD0: 'FACP', 'CBX3', Rev: 5, Len: 268
+25:892  0:000        (Dsdt: 77FD4240, Facs: 77F97F80, XDsdt: 77FD4240, XFacs: 0)
+25:892  0:000        77FD4240: 'DSDT', 'CBX3', Rev: 2, Len: 121228
+25:893  0:001        77F97F80: 'FACS', Ver: 2, Len: 64
+25:893  0:000    1. 77FF1CE0: 'APIC', 'CBX3', Rev: 3, Len: 132
+25:893  0:000    2. 77FF1D68: 'FPDT', 'CBX3', Rev: 1, Len: 68
+25:893  0:000    3. 77FF1DB0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+25:893  0:000    4. 77FF1E50: 'MCFG', 'CBX3', Rev: 1, Len: 60
+25:893  0:000    5. 77FF1E90: 'HPET', 'CBX3', Rev: 1, Len: 56
+25:893  0:000    6. 77FF1EC8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+25:893  0:000    7. 77FF21E0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+25:893  0:000    8. 77FF2278: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+25:893  0:000    9. 77FF24C0: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+25:893  0:000    10. 77FF5070: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+25:893  0:000    11. 77FF5CB8: 'DBGP', '', Rev: 1, Len: 52
+25:893  0:000    12. 77FF5CF0: 'DBG2', '', Rev: 0, Len: 84
+25:893  0:000    13. 77FF5D48: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1856
+25:893  0:000    14. 77FF6488: 'BOOT', 'CBX3', Rev: 1, Len: 40
+25:893  0:000    15. 77FF64B0: 'SSDT', 'SaSsdt', Rev: 2, Len: 13847
+25:893  0:000    16. 77FF9AC8: 'UEFI', '', Rev: 1, Len: 66
+25:893  0:000    17. 77FF9B10: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+25:893  0:000    18. 77FFA968: 'MSDM', 'CBX3', Rev: 3, Len: 85
+25:893  0:000    19. 77FFA9C0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+25:893  0:000    20. 77FFAB38: 'SSDT', 'SgPch', Rev: 2, Len: 1706
+25:893  0:000    21. 77FFB1E8: 'DMAR', 'SKL', Rev: 1, Len: 240
+25:893  0:000    22. 77FFB2D8: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+25:893  0:000    23. 77FFB310: 'SSDT', 'OptTabl', Rev: 1, Len: 6328
+25:893  0:000    24. 77FFCBC8: 'ASF!', ' HCG', Rev: 32, Len: 165
+25:893  0:000    25. 77FFCC70: 'BGRT', '', Rev: 0, Len: 56
+25:893  0:000    Tables in Rsdt: 26
+25:893  0:000    0. 77FD41B8: 'FACP', 'CBX3', Rev: 2, Len: 132
+25:893  0:000        (Dsdt: 77FD4240, Facs: 77F97F40)
+25:893  0:000        77FD4240: 'DSDT', 'CBX3', Rev: 2, Len: 121228
+25:895  0:001        77F97F40: 'FACS', Ver: 0, Len: 64
+25:895  0:000    1. 77FF1CE0: 'APIC', 'CBX3', Rev: 3, Len: 132
+25:895  0:000    2. 77FF1D68: 'FPDT', 'CBX3', Rev: 1, Len: 68
+25:895  0:000    3. 77FF1DB0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+25:895  0:000    4. 77FF1E50: 'MCFG', 'CBX3', Rev: 1, Len: 60
+25:895  0:000    5. 77FF1E90: 'HPET', 'CBX3', Rev: 1, Len: 56
+25:895  0:000    6. 77FF1EC8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+25:895  0:000    7. 77FF21E0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+25:895  0:000    8. 77FF2278: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+25:895  0:000    9. 77FF24C0: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+25:895  0:000    10. 77FF5070: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+25:895  0:000    11. 77FF5CB8: 'DBGP', '', Rev: 1, Len: 52
+25:895  0:000    12. 77FF5CF0: 'DBG2', '', Rev: 0, Len: 84
+25:895  0:000    13. 77FF5D48: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1856
+25:895  0:000    14. 77FF6488: 'BOOT', 'CBX3', Rev: 1, Len: 40
+25:895  0:000    15. 77FF64B0: 'SSDT', 'SaSsdt', Rev: 2, Len: 13847
+25:895  0:000    16. 77FF9AC8: 'UEFI', '', Rev: 1, Len: 66
+25:895  0:000    17. 77FF9B10: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+25:895  0:000    18. 77FFA968: 'MSDM', 'CBX3', Rev: 3, Len: 85
+25:895  0:000    19. 77FFA9C0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+25:895  0:000    20. 77FFAB38: 'SSDT', 'SgPch', Rev: 2, Len: 1706
+25:895  0:000    21. 77FFB1E8: 'DMAR', 'SKL', Rev: 1, Len: 240
+25:895  0:000    22. 77FFB2D8: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+25:895  0:000    23. 77FFB310: 'SSDT', 'OptTabl', Rev: 1, Len: 6328
+25:895  0:000    24. 77FFCBC8: 'ASF!', ' HCG', Rev: 32, Len: 165
+25:895  0:000    25. 77FFCC70: 'BGRT', '', Rev: 0, Len: 56
